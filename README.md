@@ -1,0 +1,6 @@
+# Convolutional-Code-Simulation-for-Video-Transmission-using-MATLAB
+Project: Simulating video transmission using Convolutional codes and MATLAB, with teams comparing different codes and preparing a report and code. Objective: Simulate video transmission through a communication channel using Convolutional codes and MATLAB to evaluate different codes and prepare a report and code.
+##
+This is a MATLAB code that simulates the transmission of encoded bits extracted from a video stream over a communication channel with a probability of error p. The code reads in a video file, extracts the red, green, and blue components of each frame, converts them to binary, and reshapes them into a stream of bits. The user can choose whether or not to use channel coding, and the code includes functions for encoding, decoding, and putting errors into the transmission.
+
+The code uses a convolutional code with a specific trellis and a given probability of error to simulate the transmission of the encoded bits over the communication channel. The code also includes functions for decoding the received bits and putting errors into the transmission. Finally, the decoded frames are combined into a single video file.

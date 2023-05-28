@@ -4,6 +4,7 @@
 *.autosave
 *.slx.r*
 *.mdl.r*
+MATLAB.prj
 
 # Derived content-obscured files
 *.p
